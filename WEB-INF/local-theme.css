@@ -1,0 +1,25 @@
+/* roots */
+body {
+    background: url(page_background.jpg) repeat-x left top;
+}
+/* Classes */
+.jumbotron {
+    margin-bottom: 0px;
+    height: 200px;
+    font-family: Consolas,monaco,monospace;
+}
+/* The Following is used to fix the navigation bar to the top of page. */
+.affix {
+    top: 0;
+    width: 100%;
+}
+.navbar {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-width: inherit;
+}
+/* divs */
+#section1 {
+    background-color: #FFFFFF;
+    min-height: 800px;
+}

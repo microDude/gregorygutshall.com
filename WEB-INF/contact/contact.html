@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <base href="http://www.gregorygutshall.com" target="_parent" >
+        <title>Gregory Gutshall</title>
+
+        <meta charset="utf-8" >
+        <meta name="author" content="Gregory Gutshall" >
+        <meta name="revised" content="Gregory Gutshall,07/20/2015" >
+        <meta name="description" content="Gregory Gutshall Personal Website" >
+        <meta name="keywords" content="Gutshall, Gregory Gutshall, Greg Gutshall" >
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+        
+        <!-- Local Theme for this website -->
+        <!--link rel="stylesheet" href="file:///home/gregory/SourceCode/HTML/Greg_Website/Rev1/local-theme.css" -->
+        <link rel="stylesheet" href="/local-theme.css" >
+
+        <style>
+            /* Contacts Page */
+            #contact {
+                margin-left: 40px;
+                max-width: 600px;
+            }
+            #footer {
+                text-align: right;
+                margin-right: 40px;
+                color: darkgrey;
+            }
+        </style>       
+        
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>${gregory.gutshall}</h1>      
+                <p>a little about, this guy</p>
+            </div>
+        
+            <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="200">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Home</a>
+                </div>
+                <div>
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Open Source</a></li>
+                                <li><a href="#">Open Hardware</a></li>
+                                <li><a href="#">Life Hacks</a></li>
+                                <li><a href="#">Mass Spec</a></li>
+                                <li><a href="#">SECSy/GEM</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/contact/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav> 
+
+            <div id="section1" class="container-fluid">
+                <h2>Contact Information</h2>
+                <div id="contact">
+
+                    <h3><span class="glyphicon glyphicon-home"></span> Office Address</h3>
+                    <p>760 NW Morrison Ave., suite#104, Corvallis OR 97333</p>
+
+                    <h3><span class="glyphicon glyphicon-earphone"></span> Phone</h3>
+                    <p>(541) 740-5827</p>
+
+                    <h3><span class="glyphicon glyphicon-envelope"></span> Email</h3>
+                    <p>gregory[dot]gutshall[at]gmail.com</p>
+                    
+                    <h3><span class="glyphicon glyphicon-comment"></span> Other</h3>
+                    <div class="list-group">
+                      <a href="https://github.com/microDude" class="list-group-item">github</a>
+                      <a href="https://www.linkedin.com/in/gregorygutshall" class="list-group-item">LinkedIn</a>
+                    </div>
+                </div>
+                <div id="footer" style="">
+                    <p>icons C/O: <a href="https://www.glyphicons.com">glyphicons.com</a></p>
+                </div>    
+            </div>
+              
+        </div>
+
+    </body>
+
+</html>
